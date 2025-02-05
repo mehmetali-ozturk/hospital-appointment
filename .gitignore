@@ -1,0 +1,20 @@
+# Node.js (React için)
+frontend/node_modules/
+frontend/.next/
+frontend/.cache/
+frontend/dist/
+frontend/build/
+
+# Java (Spring Boot için)
+backend/target/
+backend/.idea/
+backend/.classpath/
+backend/.project/
+backend/.settings/
+backend/mvnw
+backend/mvnw.cmd
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+.env
