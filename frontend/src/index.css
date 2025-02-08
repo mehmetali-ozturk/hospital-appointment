@@ -32,3 +32,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  box-sizing: border-box;
+  
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid #00000030;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  transition: all 0.5s;
+}
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+  backdrop-filter: blur(10px);
+}
